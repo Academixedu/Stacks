@@ -8,12 +8,9 @@ public class Dynamic {
        
         Stack<Person> stack = new Stack<>();
 
+        stack.push(new Person("Medhas", 22));
+        stack.push(new Person("Charan", 22));
        
-        stack.push(new Person("John", 25));
-        stack.push(new Person("Jane", 30));
-        stack.push(new Person("Alice", 28));
-        stack.push(new Person("Bob", 22));
-
        
         ListIterator<Person> listIterator = stack.listIterator();
         while (listIterator.hasNext()) {
